@@ -1,0 +1,24 @@
+{
+  "name": "vue_demo",
+  "version": "0.0.1",
+  "description": "vue初始化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsl1127/vue-project-test-1.git"
+  },
+  "keywords": [
+    "vue",
+    "demo",
+    "ui"
+  ],
+  "author": "tsl1127",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsl1127/vue-project-test-1/issues"
+  },
+  "homepage": "https://github.com/tsl1127/vue-project-test-1#readme"
+}
