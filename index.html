@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>vue初始项目</title>
+    <title>vue项目初始</title>
     <style>
         *{
             margin: 0;
@@ -16,11 +16,20 @@
             --button-height: 32px;
         }
     </style>
+    <style>
+        .icon {
+            width:1em;
+            height: 1em;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
-        <g-button></g-button>
+        <g-button icon="">按钮</g-button>
+        <g-button icon="settings" >按钮</g-button>
+        <g-button icon="settings" icon-position="right">按钮</g-button>
     </div>
     <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_1256909_kyi6m3q006d.js"></script>
 </body>
 </html>
