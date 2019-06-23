@@ -16,27 +16,11 @@
             --button-height: 32px;
         }
     </style>
-    <style>
-        .g-button {
-            font-size: var(--font-size);
-            height: var(--button-height);
-        }
-    </style>
 </head>
 <body>
     <div id="app">
-        {{message}}
         <g-button></g-button>
     </div>
-    <script src="./node_modules/vue/dist/vue.min.js"></script>
-    <script src="./button.js"></script>
-    <script>
-        new Vue({
-            el: '#app',
-            data: {
-                message: "hi"
-            }
-        })
-    </script>
+    <script src="./src/app.js"></script>
 </body>
 </html>
