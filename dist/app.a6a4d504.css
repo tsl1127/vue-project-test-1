@@ -1,4 +1,24 @@
 .g-button[data-v-61c8db] {
   font-size: var(--font-size);
   height: var(--button-height);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+}
+.g-button > .icon[data-v-61c8db] {
+  order: 1;
+}
+.g-button > .content[data-v-61c8db] {
+  order: 2;
+}
+.g-button.i-right > .icon[data-v-61c8db] {
+  order: 2;
+}
+.g-button.i-right > .content[data-v-61c8db] {
+  order: 1;
+}
+.g-icon[data-v-508c0e] {
+  width: 1em;
+  height: 1em;
 }
